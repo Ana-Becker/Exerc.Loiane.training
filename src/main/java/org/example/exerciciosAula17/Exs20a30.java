@@ -1,4 +1,4 @@
-package org.example.ExerciciosAula17;
+package org.example.exerciciosAula17;
 
 import java.util.Scanner;
 

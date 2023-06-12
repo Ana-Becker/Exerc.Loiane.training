@@ -1,6 +1,4 @@
-package org.example.ExerciciosAula17;
-
-import com.sun.jdi.Value;
+package org.example.exerciciosAula17;
 
 import java.util.Scanner;
 

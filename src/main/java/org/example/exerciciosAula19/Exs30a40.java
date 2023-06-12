@@ -1,7 +1,6 @@
 package org.example.exerciciosAula19;
 
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class Exs30a40 {
     public static void main(String[] args) {
@@ -209,6 +208,35 @@ public class Exs30a40 {
         for (int i = 0; i < vetorC.length; i ++){
             System.out.print(vetorC[i] + " ");
         }*/
+
+        /*int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] B = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+
+        int[] C = intersecao(A, B);
+
+        System.out.println("Vetor A: " + Arrays.toString(A));
+        System.out.println("Vetor B: " + Arrays.toString(B));
+        System.out.println("Interseção (Vetor C): " + Arrays.toString(C));
+    }
+
+    public static int[] intersecao(int[] A, int[] B) {
+        List<Integer> intersecao = new ArrayList<>();
+
+        for (int i = 0; i < A.length; i++) {
+            for (int j = 0; j < B.length; j++) {
+                if (A[i] == B[j]) {
+                    intersecao.add(A[i]);
+                    break;
+                }
+            }
+        }
+
+        int[] C = new int[intersecao.size()];
+        for (int i = 0; i < intersecao.size(); i++) {
+            C[i] = intersecao.get(i);
+        }
+
+        return C;*/
 
 
 
