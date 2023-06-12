@@ -12,7 +12,7 @@ public class Teste {
         Professor professor = new Professor();
         professor.setNome("Maria");
         professor.setDepartamento("Projeto");
-        professor.setEmail("Mariaamelia@gmail.com");
+        professor.setEmail("Maria.......@email.com");
         curso.setProfessor(professor);
 
         Aluno[] alunos = new Aluno[2];
